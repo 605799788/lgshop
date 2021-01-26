@@ -47,9 +47,9 @@
 						</li>
 						<li>
 							<label>图形验证码:</label>
-							<input type="text" name="image_code" id="pic_code" class="msg_input">
-							<img src="{% static 'images/pic_code.jpg' %}" alt="图形验证码" class="pic_code">
-							<span class="error_tip">请填写图形验证码</span>
+							<input type="text" name="image_code" v-model="image_code" id="pic_code" class="msg_input" @blur="check_image_code">
+							<img v-bind:src="image_code_url" alt="图形验证码" class="pic_code" @click="generate_image_code">
+							<span class="error_tip" v-show="error_code">[[ error_code_message ]]</span>
 						</li>
 						<li>
 							<label>短信验证码:</label>
@@ -91,5 +91,7 @@
 </div>
 </body>
 <script src="{% static 'js/vue-2.5.16.js' %}"></script>
+<script src="{% static 'js/axios-0.18.0.min.js' %}"></script>
+<script src="{% static 'js/common.js' %}"></script>
 <script src="{% static 'js/register.js' %}"></script>
 </html>

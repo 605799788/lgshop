@@ -18,8 +18,10 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
+    # 用户注册
     path('users/', include('users.urls')),
-
+    # contents首页
     path("", include('contents.urls')),
+    # 验证码
+    path('', include('verifications.urls'))
 ]
