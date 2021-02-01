@@ -2,10 +2,14 @@ from django.views import View
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect, reverse
 from django.contrib.auth import login
+from django_redis import get_redis_connection
 
 # from users.models import User
 from .forms import RegisterForm
 from .models import User
+
+from utils.response_code import RETCODE
+
 # Create your views here.
 
 
@@ -25,6 +29,17 @@ class RegisterView(View):
             username = register_form.cleaned_data.get('username')
             password = register_form.cleaned_data.get('password')
             mobile = register_form.cleaned_data.get('mobile')
+            # 短信验证码
+            sms_code_client = register_form.cleaned_data.get('sms_code')
+            redis_conn = get_redis_connection('verify_code')
+            sms_code_server = redis_conn.get('sms_{}'.format(mobile))
+
+            if sms_code_server is None:
+                return render(request, 'register.html', {'sms_code_errmsg': '短信验证码已失效'})
+            # 对比
+            if sms_code_client != sms_code_server.decode():
+                return render(request, 'register.html', {'sms_code_errmsg': '输入短信验证码错误'})
+
             # 保存到数据库
             try:
                 user = User.objects.create_user(username=username, password=password, mobile=mobile)
@@ -54,7 +69,7 @@ class UsernameCountView(View):
         """
         count = User.objects.filter(username=username).count()
         content = {
-            'code': 200,
+            'code': RETCODE.OK,
             'errmsg': 'ok',
             'count': count,
                     }

@@ -1,337 +1,289 @@
-INFO 2021-01-22 15:41:16,614 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-22 15:41:25,942 basehttp 154 "GET / HTTP/1.1" 200 16348
-INFO 2021-01-22 15:51:06,741 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-22 15:51:08,069 basehttp 154 "GET / HTTP/1.1" 200 16348
-INFO 2021-01-22 15:51:13,729 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
-INFO 2021-01-22 15:52:22,185 autoreload 203 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
-INFO 2021-01-22 15:52:23,433 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-22 16:02:19,695 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-22 16:02:33,388 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-22 16:03:55,899 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-22 16:04:24,781 autoreload 578 Watching for file changes with StatReloader
-WARNING 2021-01-22 16:04:26,801 log 228 Not Found: /
-WARNING 2021-01-22 16:04:26,802 basehttp 154 "GET / HTTP/1.1" 404 2027
-WARNING 2021-01-22 16:04:32,844 log 228 Not Found: /users
-WARNING 2021-01-22 16:04:32,845 basehttp 154 "GET /users HTTP/1.1" 404 2060
-WARNING 2021-01-22 16:04:37,585 log 228 Not Found: /users/
-WARNING 2021-01-22 16:04:37,585 basehttp 154 "GET /users/ HTTP/1.1" 404 2136
-INFO 2021-01-22 16:04:45,715 basehttp 154 "GET /users/register HTTP/1.1" 301 0
-INFO 2021-01-22 16:04:45,797 basehttp 154 "GET /users/register/ HTTP/1.1" 200 2962
-INFO 2021-01-22 16:04:45,850 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
-INFO 2021-01-22 16:04:45,851 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
-INFO 2021-01-22 16:04:45,865 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
-INFO 2021-01-22 16:04:45,959 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
-INFO 2021-01-22 16:04:45,960 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
-INFO 2021-01-22 16:04:45,960 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
-INFO 2021-01-22 16:04:46,028 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
-INFO 2021-01-22 16:04:46,030 basehttp 154 "GET /static/images/down.png HTTP/1.1" 200 1064
-INFO 2021-01-22 16:04:46,041 basehttp 154 "GET /static/images/selected.png HTTP/1.1" 200 1060
-INFO 2021-01-22 16:04:46,043 basehttp 154 "GET /static/images/clock.jpg HTTP/1.1" 200 2235
-INFO 2021-01-22 16:04:46,048 basehttp 154 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
-INFO 2021-01-22 16:04:46,057 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
-INFO 2021-01-22 16:04:46,058 basehttp 154 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
-INFO 2021-01-22 16:04:46,071 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
-INFO 2021-01-22 16:04:46,071 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
-INFO 2021-01-22 16:04:46,072 basehttp 154 "GET /static/images/stars.png HTTP/1.1" 200 2688
-INFO 2021-01-22 16:04:46,073 basehttp 154 "GET /static/images/find-password.png HTTP/1.1" 200 6186
-INFO 2021-01-22 16:04:46,074 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
-INFO 2021-01-22 16:04:46,079 basehttp 154 "GET /static/images/success.png HTTP/1.1" 200 2738
-INFO 2021-01-22 16:04:46,082 basehttp 154 "GET /static/images/shine.png HTTP/1.1" 200 1270
-INFO 2021-01-22 16:04:46,083 basehttp 154 "GET /static/images/time_count_bg.png HTTP/1.1" 200 1332
-INFO 2021-01-22 16:04:46,084 basehttp 154 "GET /static/images/arrow.png HTTP/1.1" 200 985
-INFO 2021-01-22 16:07:51,198 autoreload 203 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
-INFO 2021-01-22 16:07:52,410 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-22 16:07:59,142 autoreload 203 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
-INFO 2021-01-22 16:08:00,283 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-22 16:08:16,295 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-22 16:08:21,356 basehttp 154 "GET /users/register/ HTTP/1.1" 200 2962
-INFO 2021-01-22 16:16:35,795 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 10:56:31,409 autoreload 578 Watching for file changes with StatReloader
-WARNING 2021-01-25 11:02:28,391 log 228 Not Found: /register/
-WARNING 2021-01-25 11:02:28,392 basehttp 154 "GET /register/ HTTP/1.1" 404 2072
-INFO 2021-01-25 11:02:48,483 basehttp 154 "GET /users/register/ HTTP/1.1" 200 2962
-WARNING 2021-01-25 11:05:00,410 log 228 Forbidden (CSRF token missing or incorrect.): /users/register/
-WARNING 2021-01-25 11:05:00,410 basehttp 154 "POST /users/register/ HTTP/1.1" 403 2513
-INFO 2021-01-25 11:05:54,101 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 11:05:56,602 log 228 Internal Server Error: /users/register/
+INFO 2021-01-28 10:42:19,240 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-01-28 10:42:22,384 log 228 Internal Server Error: /sms_codes/15838618208/
 Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 11:05:56,603 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63215
-INFO 2021-01-25 11:06:22,000 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 11:06:25,981 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 11:07:26,337 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 11:08:39,848 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 11:08:48,750 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 11:09:01,437 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\forms.py changed, reloading.
-INFO 2021-01-25 11:09:02,629 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 11:09:08,199 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 11:09:11,448 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 11:09:24,903 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 11:10:49,767 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 11:10:50,959 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 11:12:10,587 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 11:12:58,975 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 11:14:58,016 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 11:14:59,167 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 11:15:04,452 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 11:15:05,590 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 11:15:09,644 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 11:15:09,646 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63218
-INFO 2021-01-25 13:41:10,694 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 13:41:14,969 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 13:41:14,971 basehttp 154 "POST /users/register/ HTTP/1.1" 500 65309
-INFO 2021-01-25 13:41:44,547 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 13:41:49,576 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 13:41:49,579 basehttp 154 "POST /users/register/ HTTP/1.1" 500 65309
-INFO 2021-01-25 13:44:22,047 basehttp 154 "GET /users/register/ HTTP/1.1" 200 2962
-ERROR 2021-01-25 13:44:40,622 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 13:44:40,624 basehttp 154 "POST /users/register/ HTTP/1.1" 500 65309
-ERROR 2021-01-25 13:44:49,475 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 13:44:49,476 basehttp 154 "POST /users/register/ HTTP/1.1" 500 65307
-INFO 2021-01-25 13:45:44,400 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 13:46:17,041 basehttp 154 "POST /users/register/ HTTP/1.1" 200 6
-INFO 2021-01-25 13:47:30,409 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 13:47:31,814 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 13:47:36,359 basehttp 154 "POST /users/register/ HTTP/1.1" 200 6
-INFO 2021-01-25 13:48:28,863 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 13:48:37,942 basehttp 154 "POST /users/register/ HTTP/1.1" 200 6
-INFO 2021-01-25 13:49:27,460 basehttp 154 "POST /users/register/ HTTP/1.1" 200 6
-INFO 2021-01-25 14:58:44,063 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 14:58:51,218 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
     response = self.process_exception_by_middleware(e, request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\views\generic\base.py", line 71, in view
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
     return self.dispatch(request, *args, **kwargs)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
     return handler(request, *args, **kwargs)
-  File "C:\Users\LiZ\Desktop\lgshop\apps\users\views.py", line 29, in post
-    if register_form.is_valid():
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\forms\forms.py", line 185, in is_valid
-    return self.is_bound and not self.errors
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\forms\forms.py", line 180, in errors
-    self.full_clean()
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\forms\forms.py", line 382, in full_clean
-    self._clean_form()
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\forms\forms.py", line 409, in _clean_form
-    cleaned_data = self.clean()
-  File "C:\Users\LiZ\Desktop\lgshop\apps\users\forms.py", line 23, in clean
-    return clean_dataed
-NameError: name 'clean_dataed' is not defined
-ERROR 2021-01-25 14:58:51,221 basehttp 154 "POST /users/register/ HTTP/1.1" 500 99540
-INFO 2021-01-25 14:59:07,242 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\forms.py changed, reloading.
-INFO 2021-01-25 14:59:08,635 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 14:59:13,216 log 228 Internal Server Error: /users/register/
+TypeError: get() missing 1 required positional argument: 'code'
+ERROR 2021-01-28 10:42:22,386 basehttp 154 "GET /sms_codes/15838618208/?uuid=2906a4b6-42af-4b8d-8b00-14025c3b976b&image_code=QS9L HTTP/1.1" 500 79202
+INFO 2021-01-28 10:44:16,090 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-01-28 10:44:19,158 log 228 Internal Server Error: /sms_codes/15838618208/
 Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 14:59:13,217 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63214
-INFO 2021-01-25 14:59:23,128 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 14:59:35,071 log 228 Internal Server Error: /users/register/
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'code'
+ERROR 2021-01-28 10:44:19,160 basehttp 154 "GET /sms_codes/15838618208/ HTTP/1.1" 500 78256
+INFO 2021-01-28 10:44:42,532 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\urls.py changed, reloading.
+INFO 2021-01-28 10:44:46,613 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-01-28 10:44:55,726 log 228 Internal Server Error: /sms_codes/
 Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 14:59:35,072 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63084
-INFO 2021-01-25 15:00:06,085 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\forms.py changed, reloading.
-INFO 2021-01-25 15:00:07,539 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 15:00:10,872 log 228 Internal Server Error: /users/register/
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() missing 2 required positional arguments: 'code' and 'mobile'
+ERROR 2021-01-28 10:44:55,728 basehttp 154 "GET /sms_codes/ HTTP/1.1" 500 77906
+INFO 2021-01-28 10:45:40,112 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-01-28 10:45:44,480 log 228 Not Found: /sms_codes/15838618208/
+WARNING 2021-01-28 10:45:44,481 basehttp 154 "GET /sms_codes/15838618208/?uuid=2906a4b6-42af-4b8d-8b00-14025c3b976b&image_code=QS9L HTTP/1.1" 404 2677
+INFO 2021-01-28 10:46:30,077 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\libs\ronglianyun\ccp_sms.py changed, reloading.
+INFO 2021-01-28 10:46:32,441 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 10:46:35,100 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\libs\ronglianyun\ccp_sms.py changed, reloading.
+INFO 2021-01-28 10:46:37,383 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 10:46:54,908 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\libs\ronglianyun\ccp_sms.py changed, reloading.
+INFO 2021-01-28 10:47:00,128 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-01-28 10:47:04,798 log 228 Not Found: /sms_codes/15838618208/
+WARNING 2021-01-28 10:47:04,799 basehttp 154 "GET /sms_codes/15838618208/?uuid=2906a4b6-42af-4b8d-8b00-14025c3b976b&image_code=QS9L HTTP/1.1" 404 2677
+INFO 2021-01-28 10:47:14,450 basehttp 154 "GET /users/register/ HTTP/1.1" 200 3836
+INFO 2021-01-28 10:47:14,724 basehttp 154 "GET /image_codes/c291665a-18a7-43c0-b8b4-0388245c7653/ HTTP/1.1" 200 3399
+WARNING 2021-01-28 10:48:05,489 log 228 Not Found: /sms_codes/15838618208/
+WARNING 2021-01-28 10:48:05,490 basehttp 154 "GET /sms_codes/15838618208/?uuid=c291665a-18a7-43c0-b8b4-0388245c7653&image_code=ZUFU HTTP/1.1" 404 2677
+INFO 2021-01-28 10:48:40,156 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-01-28 10:48:44,796 log 228 Internal Server Error: /sms_codes/15838618208/
 Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 15:00:10,873 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63084
-ERROR 2021-01-25 15:02:42,446 log 228 Internal Server Error: /users/register/
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'code'
+ERROR 2021-01-28 10:48:44,798 basehttp 154 "GET /sms_codes/15838618208/?uuid=c291665a-18a7-43c0-b8b4-0388245c7653&image_code=ZUFU HTTP/1.1" 500 79202
+INFO 2021-01-28 10:49:55,543 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\libs\ronglianyun\ccp_sms.py changed, reloading.
+INFO 2021-01-28 10:49:56,969 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 10:50:07,642 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\libs\ronglianyun\ccp_sms.py changed, reloading.
+INFO 2021-01-28 10:50:09,033 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 10:50:15,165 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-01-28 10:50:16,692 log 228 Internal Server Error: /sms_codes/15838618208/
 Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 15:02:42,448 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63084
-INFO 2021-01-25 15:03:23,971 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:03:35,557 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 15:03:45,453 log 228 Internal Server Error: /users/register/
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'code'
+ERROR 2021-01-28 10:50:16,694 basehttp 154 "GET /sms_codes/15838618208/?uuid=c291665a-18a7-43c0-b8b4-0388245c7653&image_code=ZUFU HTTP/1.1" 500 79202
+INFO 2021-01-28 10:50:56,229 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 10:50:57,639 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 10:51:09,681 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\libs\ronglianyun\ccp_sms.py changed, reloading.
+INFO 2021-01-28 10:51:11,063 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 10:51:13,211 basehttp 154 "GET /sms_codes/15838618208/?uuid=c291665a-18a7-43c0-b8b4-0388245c7653&image_code=ZUFU HTTP/1.1" 200 84
+INFO 2021-01-28 10:52:24,943 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 10:52:26,384 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:22:45,772 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:22:47,206 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:23:31,167 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:23:32,630 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:23:54,125 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:23:55,476 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:24:12,996 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:24:15,796 basehttp 154 "GET /users/register/ HTTP/1.1" 200 3836
+INFO 2021-01-28 14:24:16,171 basehttp 154 "GET /image_codes/d994c8e1-4ec3-47a1-9078-d55d2b3da7ad/ HTTP/1.1" 200 3154
+ERROR 2021-01-28 14:24:51,595 log 228 Internal Server Error: /sms_codes/15838618208/
 Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 15:03:45,455 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63086
-INFO 2021-01-25 15:04:15,739 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:04:31,495 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 15:04:38,387 log 228 Internal Server Error: /users/register/
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py", line 56, in get
+    iamge_code_server = image_code_client.decode()
+AttributeError: 'str' object has no attribute 'decode'
+ERROR 2021-01-28 14:24:51,597 basehttp 154 "GET /sms_codes/15838618208/?uuid=d994c8e1-4ec3-47a1-9078-d55d2b3da7ad&image_code=fw46 HTTP/1.1" 500 84266
+INFO 2021-01-28 14:25:19,649 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:25:21,017 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-01-28 14:25:25,438 log 228 Internal Server Error: /sms_codes/15838618208/
 Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 15:04:38,388 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63078
-INFO 2021-01-25 15:04:58,485 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 15:05:04,535 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 15:05:04,536 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63166
-INFO 2021-01-25 15:05:46,220 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\forms.py changed, reloading.
-INFO 2021-01-25 15:05:47,480 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:05:51,175 basehttp 154 "POST /users/register/ HTTP/1.1" 200 2962
-INFO 2021-01-25 15:06:40,226 basehttp 154 "POST /users/register/ HTTP/1.1" 200 2962
-INFO 2021-01-25 15:07:07,411 basehttp 154 "POST /users/register/ HTTP/1.1" 200 2962
-INFO 2021-01-25 15:07:53,538 basehttp 154 "GET /users/register/ HTTP/1.1" 200 2962
-INFO 2021-01-25 15:08:01,695 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 15:08:52,941 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\forms.py changed, reloading.
-INFO 2021-01-25 15:08:54,459 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 15:09:01,777 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 15:09:01,778 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63294
-INFO 2021-01-25 15:09:13,689 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\forms.py changed, reloading.
-INFO 2021-01-25 15:09:15,001 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:10:16,093 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\forms.py changed, reloading.
-INFO 2021-01-25 15:10:17,441 autoreload 578 Watching for file changes with StatReloader
-ERROR 2021-01-25 15:10:32,073 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 15:10:32,074 basehttp 154 "POST /users/register/ HTTP/1.1" 500 63291
-INFO 2021-01-25 15:10:45,300 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\forms.py changed, reloading.
-INFO 2021-01-25 15:10:46,547 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:11:52,066 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 15:14:17,889 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 15:14:19,380 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:14:41,071 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 15:14:42,415 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:15:03,104 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 15:15:04,630 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:31:33,977 autoreload 203 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
-INFO 2021-01-25 15:31:35,409 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:34:31,265 autoreload 578 Watching for file changes with StatReloader
-WARNING 2021-01-25 15:34:37,506 log 228 Not Found: /
-WARNING 2021-01-25 15:34:37,507 basehttp 154 "GET / HTTP/1.1" 404 2027
-WARNING 2021-01-25 15:34:39,129 log 228 Not Found: /favicon.ico
-WARNING 2021-01-25 15:34:39,130 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2078
-INFO 2021-01-25 15:34:50,052 basehttp 154 "GET /users/register/ HTTP/1.1" 200 3647
-INFO 2021-01-25 15:34:50,271 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
-INFO 2021-01-25 15:34:50,272 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 137
-INFO 2021-01-25 15:34:50,278 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
-ERROR 2021-01-25 15:35:53,035 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 15:35:53,041 basehttp 154 "POST /users/register/ HTTP/1.1" 500 65965
-INFO 2021-01-25 15:37:48,563 basehttp 154 "GET /users/register/ HTTP/1.1" 200 3647
-INFO 2021-01-25 15:37:48,680 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
-ERROR 2021-01-25 15:37:54,327 log 228 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
-    response = get_response(request)
-  File "D:\Alltools\conda\unzip\envs\luoji\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
-    "returned None instead." % (callback.__module__, view_name)
-ValueError: The view apps.users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
-ERROR 2021-01-25 15:37:54,328 basehttp 154 "POST /users/register/ HTTP/1.1" 500 65978
-INFO 2021-01-25 15:39:39,054 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:39:41,010 basehttp 154 "GET /users/register/ HTTP/1.1" 200 3647
-INFO 2021-01-25 15:39:41,117 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
-INFO 2021-01-25 15:40:05,253 basehttp 154 "POST /users/register/ HTTP/1.1" 200 12
-INFO 2021-01-25 15:46:00,918 basehttp 154 "GET /users/register/ HTTP/1.1" 200 3647
-INFO 2021-01-25 15:46:15,853 basehttp 154 "POST /users/register/ HTTP/1.1" 200 3678
-INFO 2021-01-25 15:46:15,957 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
-INFO 2021-01-25 15:47:11,753 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 15:47:13,175 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:52:38,383 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:52:39,749 basehttp 154 "GET / HTTP/1.1" 200 38951
-INFO 2021-01-25 15:52:39,888 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
-INFO 2021-01-25 15:52:39,889 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
-INFO 2021-01-25 15:52:40,209 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
-INFO 2021-01-25 15:52:40,212 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
-INFO 2021-01-25 15:52:40,214 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
-INFO 2021-01-25 15:52:40,216 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
-INFO 2021-01-25 15:52:40,218 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
-INFO 2021-01-25 15:52:40,223 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
-INFO 2021-01-25 15:52:40,231 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
-INFO 2021-01-25 15:52:40,232 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
-INFO 2021-01-25 15:52:40,237 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
-INFO 2021-01-25 15:52:40,248 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
-INFO 2021-01-25 15:52:40,249 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
-INFO 2021-01-25 15:52:40,249 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
-INFO 2021-01-25 15:52:40,261 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
-INFO 2021-01-25 15:52:40,262 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
-INFO 2021-01-25 15:52:40,264 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
-INFO 2021-01-25 15:52:40,272 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
-INFO 2021-01-25 15:52:40,274 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
-INFO 2021-01-25 15:52:40,274 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
-INFO 2021-01-25 15:53:06,188 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:53:44,079 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 15:53:45,400 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:54:23,485 autoreload 203 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
-INFO 2021-01-25 15:54:24,931 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:54:45,137 basehttp 154 "POST /users/register/ HTTP/1.1" 302 0
-INFO 2021-01-25 15:54:45,164 basehttp 154 "GET / HTTP/1.1" 200 38951
-WARNING 2021-01-25 15:54:45,579 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
-WARNING 2021-01-25 15:55:36,375 log 228 Not Found: /register.html
-WARNING 2021-01-25 15:55:36,375 basehttp 154 "GET /register.html HTTP/1.1" 404 2245
-INFO 2021-01-25 15:56:49,610 autoreload 203 C:\Users\LiZ\Desktop\lgshop\lgshop\urls.py changed, reloading.
-INFO 2021-01-25 15:56:51,052 autoreload 578 Watching for file changes with StatReloader
-INFO 2021-01-25 15:57:09,061 autoreload 203 C:\Users\LiZ\Desktop\lgshop\lgshop\urls.py changed, reloading.
-INFO 2021-01-25 15:57:10,415 autoreload 578 Watching for file changes with StatReloader
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py", line 56, in get
+    iamge_code_server = iamge_code_server.decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2021-01-28 14:25:25,440 basehttp 154 "GET /sms_codes/15838618208/?uuid=d994c8e1-4ec3-47a1-9078-d55d2b3da7ad&image_code=fw46 HTTP/1.1" 500 84275
+INFO 2021-01-28 14:26:06,505 basehttp 154 "GET /users/register/ HTTP/1.1" 200 3836
+INFO 2021-01-28 14:26:06,837 basehttp 154 "GET /image_codes/6285526b-96e5-41ea-8d82-7d9b9157452d/ HTTP/1.1" 200 3123
+INFO 2021-01-28 14:26:45,994 basehttp 154 "GET /sms_codes/15838618208/?uuid=6285526b-96e5-41ea-8d82-7d9b9157452d&image_code=IULW HTTP/1.1" 200 63
+INFO 2021-01-28 14:28:43,333 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:28:44,543 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:28:57,993 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:28:59,513 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:29:24,615 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:29:25,983 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:29:38,942 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:29:40,298 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:29:50,748 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:29:52,291 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:33:04,215 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:33:05,599 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:33:36,553 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:33:37,891 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:33:56,423 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 14:33:57,794 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:48:09,101 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 14:48:35,219 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5619
+INFO 2021-01-28 14:48:35,289 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-01-28 14:48:35,292 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-01-28 14:48:35,338 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-01-28 14:48:35,338 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-01-28 14:48:35,338 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7453
+INFO 2021-01-28 14:48:35,340 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-01-28 14:48:35,341 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-01-28 14:48:35,464 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-01-28 14:48:35,464 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-01-28 14:48:35,465 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-01-28 14:48:35,568 basehttp 154 "GET /image_codes/f6795471-678c-4d78-81a6-19bb57f4ea5a/ HTTP/1.1" 200 3637
+WARNING 2021-01-28 14:48:37,939 log 228 Not Found: /favicon.ico
+WARNING 2021-01-28 14:48:37,939 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2612
+INFO 2021-01-28 14:48:39,435 basehttp 154 "GET /users/usernames/lizhun/count/ HTTP/1.1" 200 41
+INFO 2021-01-28 14:48:48,883 basehttp 154 "GET /image_codes/ccc39935-e75d-468a-95f3-dfc554e2aade/ HTTP/1.1" 200 3252
+INFO 2021-01-28 14:48:51,405 basehttp 154 "GET /image_codes/00d181e1-65f5-426e-a57e-aaa7fef8c275/ HTTP/1.1" 200 3103
+INFO 2021-01-28 14:48:57,659 basehttp 154 "GET /sms_codes/15838618208/?uuid=00d181e1-65f5-426e-a57e-aaa7fef8c275&image_code=ngud HTTP/1.1" 200 63
+INFO 2021-01-28 14:49:14,047 basehttp 154 "GET /users/usernames/lizhun/count/ HTTP/1.1" 200 41
+INFO 2021-01-28 14:49:14,051 basehttp 154 "POST /users/register/ HTTP/1.1" 200 5813
+INFO 2021-01-28 14:49:14,295 basehttp 154 "GET /image_codes/4a6ff640-cc64-4be6-b735-3a120eb9c11f/ HTTP/1.1" 200 3463
+WARNING 2021-01-28 14:52:14,141 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-01-28 14:52:15,148 basehttp 154 "POST /users/register/ HTTP/1.1" 200 5813
+WARNING 2021-01-28 14:52:15,375 log 228 Not Found: /users/images/interval_line.png
+WARNING 2021-01-28 14:52:15,376 log 228 Not Found: /users/images/register_banner.png
+WARNING 2021-01-28 14:52:15,377 log 228 Not Found: /users/images/icons02.png
+WARNING 2021-01-28 14:52:15,378 basehttp 154 "GET /users/images/interval_line.png HTTP/1.1" 404 2953
+WARNING 2021-01-28 14:52:15,378 basehttp 154 "GET /users/images/icons02.png HTTP/1.1" 404 2935
+WARNING 2021-01-28 14:52:15,378 basehttp 154 "GET /users/images/register_banner.png HTTP/1.1" 404 2959
+INFO 2021-01-28 14:52:15,456 basehttp 154 "GET /image_codes/962e56de-8186-4089-82cf-bc9d1de3f54c/ HTTP/1.1" 200 3037
+WARNING 2021-01-28 14:52:15,461 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-01-28 14:52:22,427 basehttp 154 "POST /users/register/ HTTP/1.1" 200 5813
+INFO 2021-01-28 14:52:22,748 basehttp 154 "GET /image_codes/a4697d8b-ce04-4603-bb48-c8e884114234/ HTTP/1.1" 200 3105
+WARNING 2021-01-28 14:52:22,760 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-01-28 14:52:31,670 basehttp 154 "GET /users/usernames/lizhun/count/ HTTP/1.1" 200 41
+INFO 2021-01-28 14:52:46,901 basehttp 154 "GET /image_codes/7d3312b8-bc65-4132-9750-6a3590a759cc/ HTTP/1.1" 200 3543
+INFO 2021-01-28 14:52:53,427 basehttp 154 "GET /sms_codes/17710709974/?uuid=7d3312b8-bc65-4132-9750-6a3590a759cc&image_code=dwmw HTTP/1.1" 200 63
+INFO 2021-01-28 14:53:06,848 basehttp 154 "GET /users/usernames/lizhun/count/ HTTP/1.1" 200 41
+INFO 2021-01-28 14:53:06,851 basehttp 154 "POST /users/register/ HTTP/1.1" 200 5813
+INFO 2021-01-28 14:53:07,175 basehttp 154 "GET /image_codes/19e443fa-26e3-463a-8793-ebca1c7fb55c/ HTTP/1.1" 200 2964
+WARNING 2021-01-28 14:53:07,187 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-01-28 15:03:51,745 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:03:56,618 basehttp 154 "POST /users/register/ HTTP/1.1" 200 5810
+INFO 2021-01-28 15:03:56,721 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-01-28 15:03:56,722 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-01-28 15:03:56,776 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-01-28 15:03:56,782 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7453
+INFO 2021-01-28 15:03:56,785 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-01-28 15:03:56,785 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-01-28 15:03:56,787 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-01-28 15:03:56,921 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-01-28 15:03:56,929 basehttp 154 "GET /static/images/down.png HTTP/1.1" 200 1064
+INFO 2021-01-28 15:03:56,937 basehttp 154 "GET /static/images/clock.jpg HTTP/1.1" 200 2235
+INFO 2021-01-28 15:03:56,939 basehttp 154 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2021-01-28 15:03:56,940 basehttp 154 "GET /static/images/selected.png HTTP/1.1" 200 1060
+INFO 2021-01-28 15:03:56,949 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-01-28 15:03:56,952 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-01-28 15:03:56,953 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-01-28 15:03:56,960 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-01-28 15:03:56,961 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-01-28 15:03:56,966 basehttp 154 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO 2021-01-28 15:03:56,970 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-01-28 15:03:56,986 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-01-28 15:03:57,001 basehttp 154 "GET /static/images/success.png HTTP/1.1" 200 2738
+INFO 2021-01-28 15:03:57,003 basehttp 154 "GET /static/images/time_count_bg.png HTTP/1.1" 200 1332
+INFO 2021-01-28 15:03:57,004 basehttp 154 "GET /static/images/stars.png HTTP/1.1" 200 2688
+INFO 2021-01-28 15:03:57,004 basehttp 154 "GET /static/images/shine.png HTTP/1.1" 200 1270
+INFO 2021-01-28 15:03:57,004 basehttp 154 "GET /static/images/find-password.png HTTP/1.1" 200 6186
+INFO 2021-01-28 15:03:57,009 basehttp 154 "GET /static/images/arrow.png HTTP/1.1" 200 985
+INFO 2021-01-28 15:03:57,037 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-01-28 15:03:57,038 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-01-28 15:03:57,039 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2021-01-28 15:03:57,172 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-01-28 15:03:57,206 basehttp 154 "GET /image_codes/2609f30c-a54a-4c73-9675-ef145c55914f/ HTTP/1.1" 200 3443
+WARNING 2021-01-28 15:04:00,219 log 228 Not Found: /favicon.ico
+WARNING 2021-01-28 15:04:00,220 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2612
+INFO 2021-01-28 15:04:02,301 basehttp 154 "GET /users/usernames/lizhun/count/ HTTP/1.1" 200 41
+INFO 2021-01-28 15:04:14,330 basehttp 154 "GET /sms_codes/17710709974/?uuid=2609f30c-a54a-4c73-9675-ef145c55914f&image_code=sahd HTTP/1.1" 200 63
+INFO 2021-01-28 15:04:25,427 basehttp 154 "GET /users/usernames/lizhun/count/ HTTP/1.1" 200 41
+INFO 2021-01-28 15:04:25,752 basehttp 154 "POST /users/register/ HTTP/1.1" 302 0
+INFO 2021-01-28 15:04:25,764 basehttp 154 "GET / HTTP/1.1" 200 38951
+INFO 2021-01-28 15:04:25,833 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-01-28 15:04:26,068 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-01-28 15:04:26,069 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-01-28 15:04:26,114 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-01-28 15:04:26,118 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-01-28 15:04:26,124 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-01-28 15:04:26,130 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-01-28 15:04:26,131 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-01-28 15:04:26,137 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-01-28 15:04:26,148 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-01-28 15:04:26,149 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-01-28 15:04:26,151 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-01-28 15:04:26,153 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-01-28 15:04:26,160 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-01-28 15:04:26,164 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-01-28 15:04:26,166 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-01-28 15:04:26,168 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-01-28 15:04:26,172 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+WARNING 2021-01-28 15:04:26,217 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-01-28 15:19:54,117 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 15:19:55,545 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:27:00,989 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 15:27:02,212 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:27:39,830 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 15:27:41,287 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:28:07,639 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 15:28:08,999 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:29:08,033 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 15:29:09,302 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:30:07,702 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 15:30:09,076 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:30:39,142 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 15:30:40,359 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:30:46,098 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 15:30:47,332 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:31:00,851 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\constants.py changed, reloading.
+INFO 2021-01-28 15:31:02,249 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:32:47,510 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\constants.py changed, reloading.
+INFO 2021-01-28 15:32:48,959 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:34:00,939 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\constants.py changed, reloading.
+INFO 2021-01-28 15:34:02,146 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-01-28 15:34:27,020 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-01-28 15:34:28,402 autoreload 597 Watching for file changes with StatReloader

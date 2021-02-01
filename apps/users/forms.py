@@ -8,6 +8,7 @@ class RegisterForm(forms.Form):
     password = forms.CharField(max_length=20, min_length=8, required=True)
     password2 = forms.CharField(max_length=20, min_length=8, required=True)
     mobile = forms.CharField(max_length=11, min_length=11, required=True)
+    sms_code = forms.CharField(max_length=6, min_length=6, required=True)
 
     def clean(self):
         cleaned_data = super().clean()

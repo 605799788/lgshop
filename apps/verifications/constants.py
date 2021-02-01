@@ -1,0 +1,6 @@
+# 图形验证码有效期 秒
+IMAGE_CODE_REDIS_EXPIRES = 300
+# 短信验证码有效期 秒
+SMS_CODE_REDIS_EXPIRES = 300
+# 60s内是否重复发送
+SEND_SMS_CODE_TIMES = 60
