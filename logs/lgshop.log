@@ -287,3 +287,72 @@ INFO 2021-01-28 15:34:00,939 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\ver
 INFO 2021-01-28 15:34:02,146 autoreload 597 Watching for file changes with StatReloader
 INFO 2021-01-28 15:34:27,020 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
 INFO 2021-01-28 15:34:28,402 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 09:36:54,473 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 09:37:26,410 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5619
+INFO 2021-02-01 09:37:26,533 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-02-01 09:37:26,534 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-02-01 09:37:26,535 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7453
+INFO 2021-02-01 09:37:26,537 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-02-01 09:37:26,623 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-02-01 09:37:27,131 basehttp 154 "GET /image_codes/fb1e6a0b-93e9-40e7-9922-fb8091adab39/ HTTP/1.1" 200 3464
+WARNING 2021-02-01 09:37:28,895 log 228 Not Found: /favicon.ico
+WARNING 2021-02-01 09:37:28,895 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2612
+INFO 2021-02-01 09:37:44,186 basehttp 154 "GET /sms_codes/17710709974/?uuid=fb1e6a0b-93e9-40e7-9922-fb8091adab39&image_code=lrhy HTTP/1.1" 200 63
+INFO 2021-02-01 09:38:44,215 basehttp 154 "GET /image_codes/c695575a-915b-42c8-81aa-bb288295f4f9/ HTTP/1.1" 200 3692
+INFO 2021-02-01 10:29:22,114 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 10:29:31,001 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5619
+ERROR 2021-02-01 10:29:31,542 log 228 Internal Server Error: /image_codes/c28225b5-1b88-4e55-8931-29d342969569/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py", line 32, in get
+    redis_conn.setex('img_%s' % uuid, text, constants.IMAGE_CODE_REDIS_EXPIRES)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\redis\connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: value is not an integer or out of range
+ERROR 2021-02-01 10:29:31,548 basehttp 154 "GET /image_codes/c28225b5-1b88-4e55-8931-29d342969569/ HTTP/1.1" 500 105802
+INFO 2021-02-01 10:30:32,903 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\verifications\views.py changed, reloading.
+INFO 2021-02-01 10:30:34,367 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 10:30:40,651 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 10:30:43,916 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5619
+INFO 2021-02-01 10:30:44,313 basehttp 154 "GET /image_codes/d58ba3f2-56e3-4d43-9472-ee8628233fd4/ HTTP/1.1" 200 2961
+INFO 2021-02-01 10:30:46,492 basehttp 154 "GET /image_codes/cd14b9b4-1735-4e3a-b2f6-fabe521b305f/ HTTP/1.1" 200 3167
+INFO 2021-02-01 10:37:49,196 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 10:37:57,285 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5619
+INFO 2021-02-01 10:37:57,693 basehttp 154 "GET /image_codes/f13a5909-9fc5-434b-85a3-ba166c2c35a3/ HTTP/1.1" 200 3290
+INFO 2021-02-01 10:38:05,040 basehttp 154 "GET /sms_codes/15838618208/?uuid=f13a5909-9fc5-434b-85a3-ba166c2c35a3&image_code=zmcr HTTP/1.1" 200 63
+INFO 2021-02-01 10:39:05,062 basehttp 154 "GET /image_codes/9350a9a6-f3d6-4983-b34a-9afcb9cabb8d/ HTTP/1.1" 200 3248
+INFO 2021-02-01 10:39:40,984 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 10:39:49,751 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 10:40:01,538 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5619
+INFO 2021-02-01 10:40:01,925 basehttp 154 "GET /image_codes/8b839f89-7cf8-472a-a111-ddad819b5c9e/ HTTP/1.1" 200 3076
+INFO 2021-02-01 10:40:06,187 basehttp 154 "GET /image_codes/ab35b460-6d42-4c74-888d-2de181aa5298/ HTTP/1.1" 200 3548
+INFO 2021-02-01 10:40:14,570 basehttp 154 "GET /sms_codes/17710709974/?uuid=ab35b460-6d42-4c74-888d-2de181aa5298&image_code=80en HTTP/1.1" 200 84
+INFO 2021-02-01 10:40:15,821 basehttp 154 "GET /sms_codes/17710709974/?uuid=ab35b460-6d42-4c74-888d-2de181aa5298&image_code=80en HTTP/1.1" 200 78
+INFO 2021-02-01 10:40:21,450 basehttp 154 "GET /image_codes/36a91af5-c5a4-40fa-ae75-7cbc0616ecb3/ HTTP/1.1" 200 3261
+INFO 2021-02-01 10:40:29,410 basehttp 154 "GET /sms_codes/17710709974/?uuid=36a91af5-c5a4-40fa-ae75-7cbc0616ecb3&image_code=lruw HTTP/1.1" 200 63
+INFO 2021-02-01 10:40:57,011 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 10:41:00,252 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5619
+INFO 2021-02-01 10:41:00,605 basehttp 154 "GET /image_codes/d41ca003-e485-4afa-93f6-015856d093f9/ HTTP/1.1" 200 3122
+INFO 2021-02-01 10:41:11,285 basehttp 154 "GET /sms_codes/15838618208/?uuid=d41ca003-e485-4afa-93f6-015856d093f9&image_code=j8zl HTTP/1.1" 200 63
+INFO 2021-02-01 10:41:50,671 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-01 10:41:52,034 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 10:42:08,364 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-01 10:42:09,720 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-01 10:42:11,379 basehttp 154 "GET /image_codes/b25fd6af-e334-41ef-914f-80d85d9ec43d/ HTTP/1.1" 200 2966
+INFO 2021-02-01 10:42:24,845 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-01 10:42:26,136 autoreload 597 Watching for file changes with StatReloader

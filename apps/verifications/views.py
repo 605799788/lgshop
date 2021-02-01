@@ -6,6 +6,7 @@ import random
 
 from verifications.libs.captcha.captcha import captcha
 from verifications.libs.ronglianyun.ccp_sms import YunPian
+from celery_tasks.sms.tasks import sends_sms_code
 from . import constants
 
 from utils.response_code import RETCODE
@@ -29,7 +30,7 @@ class ImageVIew(View):
         # 保存验证码 redis
         redis_conn = get_redis_connection('verify_code')
         # setex(self, name, time, value):
-        redis_conn.setex('img_%s' % uuid, text, constants.IMAGE_CODE_REDIS_EXPIRES)
+        redis_conn.setex('img_%s' % uuid, constants.IMAGE_CODE_REDIS_EXPIRES,text)
 
         # 响应图形验证码
         return http.HttpResponse(image, content_type='image/png')
@@ -68,9 +69,18 @@ class SMSCodeView(View):
         sms_code = "%06d" % random.randint(0, 999999)
         # print(sms_code)
         # TODO：保存发送短信验证码
-        redis_conn.setex('send_flag_{}'.format(mobile), 1, constants.SEND_SMS_CODE_TIMES)
+        # redis_conn.setex('send_flag_{}'.format(mobile), 1, constants.SEND_SMS_CODE_TIMES)
         # 保存
-        redis_conn.setex("sms_{}".format(mobile), sms_code, constants.SMS_CODE_REDIS_EXPIRES)
-        # 4. 发送短信 判断响应结果
-        YunPian().send_sms(str(sms_code), mobile)
+        # redis_conn.setex("sms_{}".format(mobile), sms_code, constants.SMS_CODE_REDIS_EXPIRES)
+        # 创建管道
+        pl = redis_conn.pipeline()
+        # 将命令添加到队列
+        pl.setex('send_flag_{}'.format(mobile), constants.SEND_SMS_CODE_TIMES, 1)
+        pl.setex("sms_{}".format(mobile), constants.SMS_CODE_REDIS_EXPIRES, sms_code)
+        pl.execute()
+
+        # 4. 发送短信
+        # YunPian().send_sms(str(sms_code), mobile)
+        # 异步发送短信
+        sends_sms_code.delay(sms_code, mobile)
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '发送短信成功'})
