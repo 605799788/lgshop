@@ -19,3 +19,9 @@ class RegisterForm(forms.Form):
             raise forms.ValidationError("密码输入不一致")
 
         return cleaned_data
+
+
+class LoginForm(forms.Form):
+    username = forms.CharField(max_length=20, min_length=5)
+    password = forms.CharField(max_length=20, min_length=8)
+    remembered = forms.BooleanField(required=False)

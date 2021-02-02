@@ -82,5 +82,5 @@ class SMSCodeView(View):
         # 4. 发送短信
         # YunPian().send_sms(str(sms_code), mobile)
         # 异步发送短信
-        sends_sms_code.delay(sms_code, mobile)
+        sends_sms_code.delay(str(sms_code), mobile)
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '发送短信成功'})

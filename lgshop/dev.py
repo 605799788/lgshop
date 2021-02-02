@@ -47,7 +47,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -215,3 +215,7 @@ LOGGING = {
 
 # 指定自定义的用户名 app.模型
 AUTH_USER_MODEL = 'users.User'
+
+# AUTHENTICATION_BACKENDS = ['apps.users.utils.UsernameMobileBackend.']
+# 相对路径设置
+AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileBackend']

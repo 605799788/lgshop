@@ -11,4 +11,4 @@ def sends_sms_code(sms_code, mobile):
     :param mobile: 手机号
     :return:
     """
-    YunPian().send_sms(str(sms_code), mobile)
+    YunPian().send_sms(sms_code, mobile)
