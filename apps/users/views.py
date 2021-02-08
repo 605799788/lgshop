@@ -1,10 +1,11 @@
 from django.views import View
 from django.http import HttpResponse, JsonResponse, HttpResponseForbidden
 from django.shortcuts import render, redirect, reverse
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 from django_redis import get_redis_connection
 from django.contrib.auth.hashers import check_password
 from django.contrib.auth.backends import ModelBackend
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 # from users.models import User
 from .forms import RegisterForm, LoginForm
@@ -13,6 +14,37 @@ from .models import User
 from utils.response_code import RETCODE
 
 # Create your views here.
+
+
+class UserInfotView(LoginRequiredMixin, View):
+    # 未登录跳转的地址
+    login_url = '/users/login/'
+    # 登录后要跳转的地址
+
+    def get(self, request):
+        return render(request, 'user_center_info.html')
+
+        # if request.user.is_authenticated:
+        #     return render(request, 'user_center_info.html')
+        # else:
+        #     return redirect(reverse('users:login'))
+
+
+class LogoutView(View):
+    """退出登录"""
+
+    def get(self, request):
+        """
+        实现退出登录逻辑
+        :param request:
+        :return:
+        """
+        logout(request)
+        # 重定向
+        response = redirect(reverse('content:index'))
+        # 删除cookie
+        response.delete_cookie('username')
+        return response
 
 
 class LoginView(View):
@@ -54,9 +86,19 @@ class LoginView(View):
             else:
                 # 记住登录  状态保持默认为2周
                 request.session.set_expiry(None)
+            next = request.GET.get('next')
+            if next:
+                response = redirect(next)
+                # return redirect(next)
+            else:
+                response = redirect(reverse('content:index'))
+            # 讲用户名设置到cookie中
 
             # 响应结果 重定向到首页
-            return redirect(reverse('content:index'))
+            # return redirect(reverse('content:index'))
+            # response = redirect(reverse('content:index'))
+            response.set_cookie('username', user.username, max_age=3600)
+            return response
         else:
             # print(login_form.errors)
             # print(login_form.errors.get_json_data())

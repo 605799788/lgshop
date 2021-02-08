@@ -2,7 +2,7 @@ let vm = new Vue({
     el: '#app',
     delimiters: ['[[', ']]'],
     data: {
-        username: username,
+        username: getCookie('username'),
         mobile: mobile,
         email: email,
         email_active: email_active,

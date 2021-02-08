@@ -62,8 +62,8 @@ class SMSCodeView(View):
         # 删除
         redis_conn.delete('img_%s' % uuid)
         # 对比
-        iamge_code_server = image_code_server.decode()
-        if image_code_client.lower() != iamge_code_server.lower():
+        image_code_server = image_code_server.decode()
+        if image_code_client.lower() != image_code_server.lower():
             return http.JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '输入图形验证码有误'})
         # 3.生成短信验证码 6位 保存
         sms_code = "%06d" % random.randint(0, 999999)
