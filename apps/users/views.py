@@ -6,14 +6,78 @@ from django_redis import get_redis_connection
 from django.contrib.auth.hashers import check_password
 from django.contrib.auth.backends import ModelBackend
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.core.mail import send_mail
+from django.conf import settings
 
 # from users.models import User
 from .forms import RegisterForm, LoginForm
 from .models import User
+from utils.views import LoginRequiredJSONMixin
+from celery_tasks.email.tasks import send_verify_email
 
 from utils.response_code import RETCODE
+from .utils import generate_verify_email_url, check_verify_email_token
+
+import json, re
 
 # Create your views here.
+
+
+class VerifyEmailView(View):
+
+    def get(self, request):
+        # 1. 接收
+        token = request.GET.get('token')
+        if not token:
+            return HttpResponseForbidden('缺少token')
+        # 2.解密  对比加密参数
+        user = check_verify_email_token(token)
+        if user.email_active == 0:
+            user.email_active = True
+            user.save()
+        else:
+            return HttpResponseForbidden("邮箱已经激活")
+        # 3.查询用户判断是否唯一  更改email_active是否已经激活为True，没有则激活
+
+        # 4.响应结果
+        return redirect(reverse('users:info'))
+
+
+class EmailView(LoginRequiredJSONMixin, View):
+    """邮箱发送"""
+
+    def put(self, request):
+        """
+        put请求内容在body里
+        :param request:
+        :return:
+        """
+        # print(request)
+        # 接受参数
+        json_str = request.body.decode()
+        # print(json_str) # 此时是一个字符串
+        json_dict = json.loads(json_str)
+        email = json_dict.get('email')
+        # 校验参数
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return HttpResponseForbidden('参数邮箱格式有误')
+        # 保存
+        try:
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            return JsonResponse({'code': RETCODE.DBERR, 'errmsg': '添加邮箱失败'})
+        # 发送邮件
+        # subject = "商城邮箱验证"
+        # html_message = '<p>尊敬的用户您好！</p>' \
+        #                '<p>感谢您使用商城。</p>' \
+        #                '<p>您的邮箱为：%s 。请点击此链接激活您的邮箱：</p>' \
+        #                '<p><a href="%s">%s<a></p>' % (email, 'www.baidu.com', 'www.baidu.com')
+        # send_mail(subject, '', from_email=settings.EMAIL_FROM, recipient_list=[email], html_message=html_message)
+        verify_url = generate_verify_email_url(request.user)
+        send_verify_email.delay(email, verify_url)
+        # 激活成功
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok'})
 
 
 class UserInfotView(LoginRequiredMixin, View):
@@ -22,7 +86,14 @@ class UserInfotView(LoginRequiredMixin, View):
     # 登录后要跳转的地址
 
     def get(self, request):
-        return render(request, 'user_center_info.html')
+        # print(request)
+        content = {
+            'username': request.user.username,
+            'mobile': request.user.mobile,
+            'email': request.user.email,
+            'email_active': request.user.email_active
+        }
+        return render(request, 'user_center_info.html', context=content)
 
         # if request.user.is_authenticated:
         #     return render(request, 'user_center_info.html')
@@ -92,9 +163,9 @@ class LoginView(View):
                 # return redirect(next)
             else:
                 response = redirect(reverse('content:index'))
-            # 讲用户名设置到cookie中
+            # 将用户名设置到cookie中
 
-            # 响应结果 重定向到首页
+            # 响应结果 重定向到首页；
             # return redirect(reverse('content:index'))
             # response = redirect(reverse('content:index'))
             response.set_cookie('username', user.username, max_age=3600)

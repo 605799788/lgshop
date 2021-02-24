@@ -1,7 +1,7 @@
 from django.urls import path, re_path
 
 from .views import RegisterView, UsernameCountView, LoginView, LogoutView
-from .views import UserInfotView
+from .views import UserInfotView, EmailView, VerifyEmailView
 app_name = 'users'
 
 urlpatterns = [
@@ -15,5 +15,9 @@ urlpatterns = [
 
     path('logout/', LogoutView.as_view(), name='logout'),
     # 个人中心
-    path('info/', UserInfotView.as_view(), name='info')
+    path('info/', UserInfotView.as_view(), name='info'),
+    # 保存邮件
+    path('email/', EmailView.as_view()),
+    # 激活邮箱请求
+    path('emails/verification/', VerifyEmailView.as_view()),
 ]

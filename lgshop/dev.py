@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -41,7 +40,6 @@ INSTALLED_APPS = [
     'contents',  # 首页
     'verifications',  # 验证
 ]
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -73,21 +71,19 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'lgshop.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lgshop',   # 数据库名字
-        'USER': 'root',     # 数据库用户名
-        'PASSWORD': 'mysql',     # 数据库密码
+        'NAME': 'lgshop',  # 数据库名字
+        'USER': 'root',  # 数据库用户名
+        'PASSWORD': 'mysql',  # 数据库密码
         'HOST': '127.0.0.1',
         'PORT': 3306
     }
 }
-
 
 # Redis缓存 0-15  16
 CACHES = {
@@ -118,7 +114,6 @@ CACHES = {
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
 
-
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
@@ -137,7 +132,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
@@ -151,7 +145,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
@@ -162,7 +155,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
-
 
 # 记录日志信息的原因
 # 1.项目部署后 不会用pycharm来运行项目
@@ -219,3 +211,15 @@ AUTH_USER_MODEL = 'users.User'
 # AUTHENTICATION_BACKENDS = ['apps.users.utils.UsernameMobileBackend.']
 # 相对路径设置
 AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileBackend']
+
+# 发送邮件配置163
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  # 指定邮件后端
+EMAIL_HOST = 'smtp.126.com'  # 发邮件主机
+EMAIL_PORT = 25  # 发邮件端口
+EMAIL_HOST_USER = 'lizhun2014@126.com'  # 授权的邮箱
+# EMAIL_HOST_PASSWORD = 'QZBTLMUNWRIWSBTM'  # 邮箱授权时获得的密码，非注册登录密码r1992924@163
+EMAIL_HOST_PASSWORD = "RUFKYGAJYBFEROYV"
+EMAIL_FROM = 'LG-<lizhun2014@126.com>'  # 发件人抬头
+
+# 邮箱激活链接验证
+EMAIL_VERIFY_URL = 'http://127.0.0.1:8000/users/emails/verification/'
