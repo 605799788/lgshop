@@ -24,7 +24,7 @@ SECRET_KEY = 'kteq*oofo%*c&u++c+*o4ds@a1y53odh94di6cu^v5-t+eby4_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.meiduo.site', '127.0.0.1']
 
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'users',  # 用户
     'contents',  # 首页
     'verifications',  # 验证
+    'oauth',  # qq登陆
 ]
 
 MIDDLEWARE = [
@@ -223,3 +224,8 @@ EMAIL_FROM = 'LG-<lizhun2014@126.com>'  # 发件人抬头
 
 # 邮箱激活链接验证
 EMAIL_VERIFY_URL = 'http://127.0.0.1:8000/users/emails/verification/'
+
+# QQ登陆配置参数
+QQ_CLIENT_ID = '101913612'
+QQ_CLIENT_SECRET = '39eb6ac28cb343b3e5562ef1032b7cab'
+QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'

@@ -249,7 +249,20 @@ class RegisterView(View):
             # return HttpResponse("注册成功")
             # 状态保持
             login(request, user)
-            return redirect(reverse('content:index'))
+            next = request.GET.get('next')
+            if next:
+                response = redirect(next)
+                # return redirect(next)
+            else:
+                response = redirect(reverse('content:index'))
+            # 将用户名设置到cookie中
+
+            # 响应结果 重定向到首页；
+            # return redirect(reverse('content:index'))
+            # response = redirect(reverse('content:index'))
+            response.set_cookie('username', user.username, max_age=3600)
+            # return redirect(reverse('content:index'))
+            return response
         else:
             print(register_form.errors.get_json_data())
             context = {
