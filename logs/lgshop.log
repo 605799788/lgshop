@@ -1178,3 +1178,587 @@ WARNING 2021-02-04 10:39:37,780 basehttp 154 "GET /static/js/axios.min.map HTTP/
 INFO 2021-02-04 10:39:39,325 basehttp 154 "GET /image_codes/b8b17506-1817-4d31-9219-c0902ae6dbda/ HTTP/1.1" 200 3452
 INFO 2021-02-04 10:39:53,828 basehttp 154 "GET /image_codes/b8b17506-1817-4d31-9219-c0902ae6dbda/ HTTP/1.1" 200 3093
 INFO 2021-02-04 10:39:56,388 basehttp 154 "GET /image_codes/b8b17506-1817-4d31-9219-c0902ae6dbda/ HTTP/1.1" 200 3132
+INFO 2021-02-24 09:09:57,728 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-02-24 09:10:20,655 log 228 Not Found: /org/show/
+WARNING 2021-02-24 09:10:20,656 basehttp 154 "GET /org/show/ HTTP/1.1" 404 2606
+WARNING 2021-02-24 09:10:22,249 log 228 Not Found: /favicon.ico
+WARNING 2021-02-24 09:10:22,250 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2612
+INFO 2021-02-24 09:10:27,994 basehttp 154 "GET / HTTP/1.1" 200 38943
+INFO 2021-02-24 09:10:28,068 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-02-24 09:10:28,069 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-02-24 09:10:28,071 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-02-24 09:10:28,073 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-02-24 09:10:28,074 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-02-24 09:10:28,146 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-02-24 09:10:28,147 basehttp 154 "GET /static/images/down.png HTTP/1.1" 200 1064
+INFO 2021-02-24 09:10:28,160 basehttp 154 "GET /static/images/clock.jpg HTTP/1.1" 200 2235
+INFO 2021-02-24 09:10:28,165 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-02-24 09:10:28,165 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-02-24 09:10:28,168 basehttp 154 "GET /static/images/selected.png HTTP/1.1" 200 1060
+INFO 2021-02-24 09:10:28,170 basehttp 154 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2021-02-24 09:10:28,177 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-02-24 09:10:28,180 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-02-24 09:10:28,182 basehttp 154 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO 2021-02-24 09:10:28,183 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-02-24 09:10:28,186 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-02-24 09:10:28,190 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-02-24 09:10:28,192 basehttp 154 "GET /static/images/stars.png HTTP/1.1" 200 2688
+INFO 2021-02-24 09:10:28,196 basehttp 154 "GET /static/images/find-password.png HTTP/1.1" 200 6186
+INFO 2021-02-24 09:10:28,198 basehttp 154 "GET /static/images/success.png HTTP/1.1" 200 2738
+INFO 2021-02-24 09:10:28,199 basehttp 154 "GET /static/images/time_count_bg.png HTTP/1.1" 200 1332
+INFO 2021-02-24 09:10:28,200 basehttp 154 "GET /static/images/shine.png HTTP/1.1" 200 1270
+INFO 2021-02-24 09:10:28,205 basehttp 154 "GET /static/images/arrow.png HTTP/1.1" 200 985
+INFO 2021-02-24 09:10:28,207 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-02-24 09:10:28,211 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-02-24 09:10:28,243 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-02-24 09:10:28,245 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-02-24 09:10:28,253 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-02-24 09:10:28,255 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-02-24 09:10:28,264 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-02-24 09:10:28,267 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-02-24 09:10:28,268 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-02-24 09:10:28,271 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-02-24 09:10:28,273 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-02-24 09:10:28,275 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-02-24 09:10:28,278 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-02-24 09:10:28,283 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-02-24 09:10:28,287 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-02-24 09:10:28,293 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-02-24 09:10:28,297 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-02-24 09:10:28,301 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-02-24 09:10:28,304 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-02-24 09:10:30,373 basehttp 154 "GET /users/login/ HTTP/1.1" 200 2920
+INFO 2021-02-24 09:10:30,446 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2021-02-24 09:10:30,542 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-02-24 09:10:42,339 basehttp 154 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2021-02-24 09:10:42,350 basehttp 154 "GET / HTTP/1.1" 200 38943
+INFO 2021-02-24 09:11:40,366 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5548
+INFO 2021-02-24 09:11:40,469 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2904
+INFO 2021-02-24 09:11:42,998 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5548
+WARNING 2021-02-24 09:11:44,089 log 228 Not Found: /users/info/user_center_order.html
+WARNING 2021-02-24 09:11:44,089 basehttp 154 "GET /users/info/user_center_order.html HTTP/1.1" 404 3481
+INFO 2021-02-24 09:24:54,367 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:26:26,925 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:26:31,185 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5554
+INFO 2021-02-24 09:26:59,808 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-02-24 09:27:01,195 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:27:03,303 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5567
+INFO 2021-02-24 09:33:17,934 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-02-24 09:33:19,468 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:33:30,890 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5581
+INFO 2021-02-24 09:42:06,034 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-02-24 09:42:07,393 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:42:24,137 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-02-24 09:42:25,453 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:44:31,556 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:45:52,383 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:46:09,319 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:46:11,872 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5581
+WARNING 2021-02-24 09:46:13,760 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2021-02-24 09:46:18,423 log 228 Not Found: /emails/
+WARNING 2021-02-24 09:46:18,423 basehttp 154 "PUT /emails/ HTTP/1.1" 404 2600
+INFO 2021-02-24 09:47:13,664 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:47:32,701 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5581
+INFO 2021-02-24 09:47:32,787 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-02-24 09:47:32,788 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-02-24 09:47:32,789 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-02-24 09:47:32,794 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-02-24 09:47:32,956 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-02-24 09:47:32,957 basehttp 154 "GET /static/images/down.png HTTP/1.1" 200 1064
+INFO 2021-02-24 09:47:32,964 basehttp 154 "GET /static/images/clock.jpg HTTP/1.1" 200 2235
+INFO 2021-02-24 09:47:32,971 basehttp 154 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2021-02-24 09:47:32,975 basehttp 154 "GET /static/images/selected.png HTTP/1.1" 200 1060
+INFO 2021-02-24 09:47:32,978 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-02-24 09:47:32,984 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-02-24 09:47:32,992 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-02-24 09:47:32,997 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-02-24 09:47:32,998 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-02-24 09:47:33,003 basehttp 154 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO 2021-02-24 09:47:33,009 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-02-24 09:47:33,013 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-02-24 09:47:33,021 basehttp 154 "GET /static/images/stars.png HTTP/1.1" 200 2688
+INFO 2021-02-24 09:47:33,025 basehttp 154 "GET /static/images/find-password.png HTTP/1.1" 200 6186
+INFO 2021-02-24 09:47:33,036 basehttp 154 "GET /static/images/time_count_bg.png HTTP/1.1" 200 1332
+INFO 2021-02-24 09:47:33,037 basehttp 154 "GET /static/images/success.png HTTP/1.1" 200 2738
+INFO 2021-02-24 09:47:33,037 basehttp 154 "GET /static/images/shine.png HTTP/1.1" 200 1270
+INFO 2021-02-24 09:47:33,048 basehttp 154 "GET /static/images/arrow.png HTTP/1.1" 200 985
+INFO 2021-02-24 09:47:33,050 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-02-24 09:47:33,052 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2896
+INFO 2021-02-24 09:47:33,065 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+WARNING 2021-02-24 09:47:33,104 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-02-24 09:47:33,112 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-02-24 09:47:33,114 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+WARNING 2021-02-24 09:47:36,242 log 228 Not Found: /favicon.ico
+WARNING 2021-02-24 09:47:36,243 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2612
+ERROR 2021-02-24 09:47:40,950 log 228 Internal Server Error: /users/email/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.EmailView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-02-24 09:47:40,951 basehttp 154 "PUT /users/email/ HTTP/1.1" 500 63710
+INFO 2021-02-24 09:59:32,932 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 09:59:35,742 basehttp 154 "PUT /users/email/ HTTP/1.1" 200 29
+INFO 2021-02-24 10:07:57,800 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-02-24 10:07:59,262 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 10:08:11,282 basehttp 154 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2021-02-24 10:08:11,304 basehttp 154 "GET / HTTP/1.1" 200 38943
+INFO 2021-02-24 10:08:11,390 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-02-24 10:08:11,622 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-02-24 10:08:11,624 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-02-24 10:08:11,674 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-02-24 10:08:11,675 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-02-24 10:08:11,681 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-02-24 10:08:11,681 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-02-24 10:08:11,685 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-02-24 10:08:11,688 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-02-24 10:08:11,689 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-02-24 10:08:11,690 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-02-24 10:08:11,700 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-02-24 10:08:11,702 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-02-24 10:08:11,703 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-02-24 10:08:11,713 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-02-24 10:08:11,714 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-02-24 10:08:11,720 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-02-24 10:08:11,724 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+WARNING 2021-02-24 10:08:11,743 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-02-24 10:08:14,403 basehttp 154 "GET /users/info/ HTTP/1.1" 302 0
+INFO 2021-02-24 10:08:14,419 basehttp 154 "GET /users/login/?next=/users/info/ HTTP/1.1" 200 2920
+INFO 2021-02-24 10:08:14,529 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2021-02-24 10:08:14,649 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+WARNING 2021-02-24 10:08:14,686 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-02-24 10:08:24,978 basehttp 154 "POST /users/login/?next=/users/info/ HTTP/1.1" 302 0
+INFO 2021-02-24 10:08:24,993 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5597
+INFO 2021-02-24 10:08:25,101 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2021-02-24 10:08:25,264 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-02-24 10:15:46,436 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-02-24 10:15:47,712 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 10:35:28,658 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 10:35:29,318 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5597
+INFO 2021-02-24 10:35:29,591 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2021-02-24 10:35:29,621 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2021-02-24 10:35:36,126 log 228 Internal Server Error: /users/email/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\users\views.py", line 54, in put
+    send_mail(subject, '', from_email=settings.EMAIL_FROM, recipient_list=[email], html_message=html_message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 126, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "D:\Alltools\conda\unzip\envs\py3\lib\smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'Invalid User', '=?utf-8?b?V0ROTURf5ZSv54us5L2g5rKh5oeC?=')
+ERROR 2021-02-24 10:35:36,130 basehttp 154 "PUT /users/email/ HTTP/1.1" 500 112972
+INFO 2021-02-24 10:36:13,948 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-02-24 10:36:15,402 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-02-24 10:36:22,542 log 228 Internal Server Error: /users/email/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\users\views.py", line 54, in put
+    send_mail(subject, '', from_email=settings.EMAIL_FROM, recipient_list=[email], html_message=html_message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 126, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "D:\Alltools\conda\unzip\envs\py3\lib\smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'Invalid User', '=?utf-8?q?WDNMD?=')
+ERROR 2021-02-24 10:36:22,547 basehttp 154 "PUT /users/email/ HTTP/1.1" 500 112766
+INFO 2021-02-24 10:36:41,479 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-02-24 10:36:42,799 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 10:36:47,473 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5597
+WARNING 2021-02-24 10:36:47,773 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2021-02-24 10:36:52,329 log 228 Internal Server Error: /users/email/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\users\views.py", line 54, in put
+    send_mail(subject, '', from_email=settings.EMAIL_FROM, recipient_list=[email], html_message=html_message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 126, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "D:\Alltools\conda\unzip\envs\py3\lib\smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'Invalid User', '=?utf-8?q?605799788?=')
+ERROR 2021-02-24 10:36:52,333 basehttp 154 "PUT /users/email/ HTTP/1.1" 500 112804
+INFO 2021-02-24 10:38:34,137 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 10:38:42,394 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5597
+WARNING 2021-02-24 10:38:42,653 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2021-02-24 10:38:50,167 log 228 Internal Server Error: /users/email/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\users\views.py", line 54, in put
+    send_mail(subject, '', from_email=settings.EMAIL_FROM, recipient_list=[email], html_message=html_message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 126, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "D:\Alltools\conda\unzip\envs\py3\lib\smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'Invalid User', '=?utf-8?q?605799788?=')
+ERROR 2021-02-24 10:38:50,172 basehttp 154 "PUT /users/email/ HTTP/1.1" 500 112804
+INFO 2021-02-24 10:40:00,525 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-02-24 10:40:06,451 log 228 Internal Server Error: /users/email/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\users\views.py", line 54, in put
+    send_mail(subject, '', from_email=settings.EMAIL_FROM, recipient_list=[email], html_message=html_message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 126, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "D:\Alltools\conda\unzip\envs\py3\lib\smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'Invalid User', '=?utf-8?q?605799788?=')
+ERROR 2021-02-24 10:40:06,456 basehttp 154 "PUT /users/email/ HTTP/1.1" 500 112804
+INFO 2021-02-24 10:44:28,304 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-02-24 10:44:29,625 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 10:44:36,848 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5597
+INFO 2021-02-24 10:44:37,094 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2021-02-24 10:44:37,116 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2021-02-24 10:44:45,655 log 228 Internal Server Error: /users/email/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\users\views.py", line 54, in put
+    send_mail(subject, '', from_email=settings.EMAIL_FROM, recipient_list=[email], html_message=html_message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 126, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "D:\Alltools\conda\unzip\envs\py3\lib\smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'Invalid User', '=?utf-8?q?605799788?=')
+ERROR 2021-02-24 10:44:45,658 basehttp 154 "PUT /users/email/ HTTP/1.1" 500 112806
+INFO 2021-02-24 10:51:37,059 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-02-24 10:51:38,462 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-02-24 10:51:47,436 log 228 Internal Server Error: /users/email/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\users\views.py", line 54, in put
+    send_mail(subject, '', from_email=settings.EMAIL_FROM, recipient_list=[email], html_message=html_message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\mail\backends\smtp.py", line 126, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "D:\Alltools\conda\unzip\envs\py3\lib\smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (553, b'Mail from must equal authorized user', '=?utf-8?q?LG-?= <18646175116@163.com>')
+ERROR 2021-02-24 10:51:47,441 basehttp 154 "PUT /users/email/ HTTP/1.1" 500 113121
+INFO 2021-02-24 10:52:22,395 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-02-24 10:52:23,639 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 10:52:27,627 basehttp 154 "PUT /users/email/ HTTP/1.1" 200 29
+INFO 2021-02-24 10:53:31,117 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-02-24 10:53:32,592 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 10:54:31,370 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-02-24 10:54:32,639 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:47:53,428 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:47:54,886 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:47:58,240 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:47:59,527 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:48:14,297 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:48:15,718 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:48:20,418 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:48:21,826 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:50:16,066 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-02-24 14:50:17,399 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:51:21,494 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:51:27,407 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5597
+INFO 2021-02-24 14:51:27,637 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2021-02-24 14:51:27,656 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2021-02-24 14:51:53,810 log 228 Internal Server Error: /users/email/
+Traceback (most recent call last):
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LiZ\Desktop\lgshop\apps\users\views.py", line 57, in put
+    send_verify_email.delay(email, verify_url, verify_url)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\celery\app\task.py", line 426, in delay
+    return self.apply_async(args, kwargs)
+  File "D:\Alltools\conda\unzip\envs\py3\lib\site-packages\celery\app\task.py", line 531, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: send_verify_email() takes 2 positional arguments but 3 were given
+ERROR 2021-02-24 14:51:53,812 basehttp 154 "PUT /users/email/ HTTP/1.1" 500 96444
+INFO 2021-02-24 14:52:08,075 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-02-24 14:52:09,326 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:52:10,647 basehttp 154 "PUT /users/email/ HTTP/1.1" 200 29
+INFO 2021-02-24 14:55:48,315 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:55:49,776 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:56:09,923 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:56:11,214 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:56:18,997 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:56:20,375 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:56:31,991 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:56:33,347 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:56:43,529 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:56:44,941 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:56:52,670 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:56:53,967 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:57:02,793 autoreload 217 C:\Users\LiZ\Desktop\lgshop\celery_tasks\main.py changed, reloading.
+INFO 2021-02-24 14:57:04,220 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 14:57:34,533 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5597
+WARNING 2021-02-24 14:57:34,915 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-02-24 14:57:39,694 basehttp 154 "PUT /users/email/ HTTP/1.1" 200 29
+INFO 2021-02-24 15:01:24,476 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\utils.py changed, reloading.
+INFO 2021-02-24 15:01:25,812 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 15:13:20,359 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-02-24 15:13:21,745 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 15:13:51,687 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-02-24 15:16:16,648 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 15:16:25,408 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5597
+WARNING 2021-02-24 15:16:25,579 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2021-02-24 15:16:25,737 log 228 Not Found: /users/images/icons.png
+WARNING 2021-02-24 15:16:25,742 log 228 Not Found: /users/images/left_bg.jpg
+WARNING 2021-02-24 15:16:25,743 basehttp 154 "GET /users/images/icons.png HTTP/1.1" 404 3607
+WARNING 2021-02-24 15:16:25,743 basehttp 154 "GET /users/images/left_bg.jpg HTTP/1.1" 404 3613
+INFO 2021-02-24 15:16:29,788 basehttp 154 "PUT /users/email/ HTTP/1.1" 200 29
+INFO 2021-02-24 15:28:22,821 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 15:30:50,149 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-02-24 15:30:51,461 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-02-24 15:30:59,966 log 228 Forbidden: /users/emails/verification/
+WARNING 2021-02-24 15:30:59,966 basehttp 154 "GET /users/emails/verification/ HTTP/1.1" 403 11
+INFO 2021-02-24 15:31:25,872 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 15:31:34,619 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5597
+INFO 2021-02-24 15:31:34,891 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2021-02-24 15:31:34,916 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-02-24 15:31:40,197 basehttp 154 "PUT /users/email/ HTTP/1.1" 200 29
+INFO 2021-02-24 15:31:51,319 basehttp 154 "GET /users/emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYxNDE1MTg5OSwiZXhwIjoxNjE0MTUyNDk5fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiI2MDU3OTk3ODhAcXEuY29tIn0.P9-UB5rs_RMNj9Uo4cPj4emkpNlFPasq6qbzbGqIq1tU74pgKBi0hVrpurnniBuVdtsAZXYtfoEvJLowQ-cU2w HTTP/1.1" 302 0
+INFO 2021-02-24 15:31:51,342 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5596
+INFO 2021-02-24 15:40:30,265 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-02-24 15:40:31,857 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5596
+INFO 2021-03-10 10:14:48,870 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-03-10 10:15:04,255 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5619
+INFO 2021-03-10 10:15:04,423 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-03-10 10:15:04,423 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-03-10 10:15:04,423 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7453
+INFO 2021-03-10 10:15:04,423 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-03-10 10:15:04,426 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-03-10 10:15:04,921 basehttp 154 "GET /image_codes/6c2132ed-c27a-4ba2-8104-cd541736c7c1/ HTTP/1.1" 200 3304
+WARNING 2021-03-10 10:15:06,340 log 228 Not Found: /favicon.ico
+WARNING 2021-03-10 10:15:06,340 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2612
+INFO 2021-03-10 10:15:37,143 basehttp 154 "GET /users/usernames/zhangjing/count/ HTTP/1.1" 200 41
+INFO 2021-03-10 10:15:46,731 basehttp 154 "GET /image_codes/0e8a4f3a-564e-4188-b371-3298402a0896/ HTTP/1.1" 200 3410
+INFO 2021-03-10 10:15:50,694 basehttp 154 "GET /sms_codes/15838618208/?uuid=0e8a4f3a-564e-4188-b371-3298402a0896&image_code=marq HTTP/1.1" 200 84
+INFO 2021-03-10 10:15:52,066 basehttp 154 "GET /image_codes/78f072da-08ad-450f-8614-3ca19b5f450d/ HTTP/1.1" 200 3210
+INFO 2021-03-10 10:15:57,218 basehttp 154 "GET /sms_codes/15838618208/?uuid=78f072da-08ad-450f-8614-3ca19b5f450d&image_code=daw7 HTTP/1.1" 200 63
+INFO 2021-03-10 10:16:33,331 basehttp 154 "GET /users/usernames/zhangjing/count/ HTTP/1.1" 200 41
+INFO 2021-03-10 10:16:33,534 basehttp 154 "POST /users/register/ HTTP/1.1" 302 0
+INFO 2021-03-10 10:16:33,552 basehttp 154 "GET / HTTP/1.1" 200 38943
+INFO 2021-03-10 10:16:33,621 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-03-10 10:16:33,673 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-03-10 10:16:33,805 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-03-10 10:16:33,814 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-03-10 10:16:33,817 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-03-10 10:16:33,819 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-03-10 10:16:33,820 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-03-10 10:16:33,823 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-03-10 10:16:33,823 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-03-10 10:16:33,826 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-03-10 10:16:33,836 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-03-10 10:16:33,837 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-03-10 10:16:33,837 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-03-10 10:16:33,847 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-03-10 10:16:33,849 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-03-10 10:16:33,850 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-03-10 10:16:33,853 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-03-10 10:16:33,854 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-03-10 10:16:48,285 basehttp 154 "GET /users/info/ HTTP/1.1" 200 5584
+INFO 2021-03-10 10:16:48,377 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2896
+WARNING 2021-03-10 10:16:48,528 log 228 Not Found: /users/images/left_bg.jpg
+WARNING 2021-03-10 10:16:48,530 log 228 Not Found: /users/images/icons.png
+WARNING 2021-03-10 10:16:48,531 basehttp 154 "GET /users/images/left_bg.jpg HTTP/1.1" 404 3786
+WARNING 2021-03-10 10:16:48,532 basehttp 154 "GET /users/images/icons.png HTTP/1.1" 404 3780
+INFO 2021-03-10 10:22:36,283 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\users\views.py changed, reloading.
+INFO 2021-03-10 10:22:37,579 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-03-10 10:22:48,863 basehttp 154 "GET /users/info/ HTTP/1.1" 302 0
+INFO 2021-03-10 10:22:48,888 basehttp 154 "GET /users/login/?next=/users/info/ HTTP/1.1" 200 2920
+INFO 2021-03-10 10:22:48,995 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2021-03-10 10:22:49,137 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+WARNING 2021-03-10 10:22:54,647 log 228 Not Found: /users/login/register.html
+WARNING 2021-03-10 10:22:54,648 basehttp 154 "GET /users/login/register.html HTTP/1.1" 404 3789
+INFO 2021-03-10 10:24:00,148 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-03-10 10:24:06,116 basehttp 154 "GET / HTTP/1.1" 200 38943
+INFO 2021-03-10 10:24:08,284 basehttp 154 "GET /users/info/ HTTP/1.1" 302 0
+INFO 2021-03-10 10:24:08,296 basehttp 154 "GET /users/login/?next=/users/info/ HTTP/1.1" 200 2923
+WARNING 2021-03-10 10:24:08,554 log 228 Not Found: /users/images/login_banner.png
+WARNING 2021-03-10 10:24:08,557 log 228 Not Found: /users/images/icons02.png
+WARNING 2021-03-10 10:24:08,559 basehttp 154 "GET /users/images/login_banner.png HTTP/1.1" 404 3801
+WARNING 2021-03-10 10:24:08,562 log 228 Not Found: /users/images/QQ-weixin.png
+WARNING 2021-03-10 10:24:08,563 basehttp 154 "GET /users/images/icons02.png HTTP/1.1" 404 3786
+WARNING 2021-03-10 10:24:08,563 basehttp 154 "GET /users/images/QQ-weixin.png HTTP/1.1" 404 3792
+INFO 2021-03-10 10:24:09,816 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5619
+WARNING 2021-03-10 10:24:10,068 log 228 Not Found: /users/images/interval_line.png
+WARNING 2021-03-10 10:24:10,070 log 228 Not Found: /users/images/icons02.png
+WARNING 2021-03-10 10:24:10,072 log 228 Not Found: /users/images/register_banner.png
+WARNING 2021-03-10 10:24:10,072 basehttp 154 "GET /users/images/interval_line.png HTTP/1.1" 404 3804
+WARNING 2021-03-10 10:24:10,073 basehttp 154 "GET /users/images/icons02.png HTTP/1.1" 404 3786
+WARNING 2021-03-10 10:24:10,074 basehttp 154 "GET /users/images/register_banner.png HTTP/1.1" 404 3810
+INFO 2021-03-10 10:24:10,109 basehttp 154 "GET /image_codes/36dff26f-3027-448c-99d7-6f434d128f45/ HTTP/1.1" 200 3134
+INFO 2021-03-10 10:24:14,824 basehttp 154 "GET /users/usernames/lizhun/count/ HTTP/1.1" 200 41
+INFO 2021-03-10 10:24:37,448 basehttp 154 "GET /image_codes/dd93d8a6-7fe3-4814-913f-ea9787efac5f/ HTTP/1.1" 200 3192
+INFO 2021-03-10 10:24:40,020 basehttp 154 "GET /image_codes/c428c55a-4c1c-4051-a4b0-d3a1d686c12b/ HTTP/1.1" 200 3573
+INFO 2021-03-10 10:24:45,008 basehttp 154 "GET /sms_codes/17710709974/?uuid=c428c55a-4c1c-4051-a4b0-d3a1d686c12b&image_code=4wdg HTTP/1.1" 200 63
+INFO 2021-03-10 10:25:04,206 basehttp 154 "GET /users/usernames/lizhun/count/ HTTP/1.1" 200 41
+INFO 2021-03-10 10:25:04,494 basehttp 154 "POST /users/register/ HTTP/1.1" 302 0
+INFO 2021-03-10 10:25:04,506 basehttp 154 "GET / HTTP/1.1" 200 38943
+INFO 2021-03-10 10:52:48,403 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-03-10 10:52:51,271 basehttp 154 "GET / HTTP/1.1" 200 38943
+INFO 2021-03-10 10:52:54,401 basehttp 154 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2021-03-10 10:52:54,413 basehttp 154 "GET / HTTP/1.1" 200 38943
+WARNING 2021-03-10 10:52:54,743 log 228 Not Found: /images/icons.png
+WARNING 2021-03-10 10:52:54,743 basehttp 154 "GET /images/icons.png HTTP/1.1" 404 2782
+INFO 2021-03-10 10:52:55,909 basehttp 154 "GET /users/login/ HTTP/1.1" 200 2923
+WARNING 2021-03-10 10:52:57,844 log 228 Not Found: /qq/login/
+WARNING 2021-03-10 10:52:57,844 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 404 2768
+WARNING 2021-03-10 10:52:59,362 log 228 Not Found: /qq/login/
+WARNING 2021-03-10 10:52:59,362 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 404 2768
+WARNING 2021-03-10 10:53:21,252 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2021-03-10 10:53:24,582 log 228 Not Found: /qq/login/
+WARNING 2021-03-10 10:53:24,582 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 404 2768
+INFO 2021-03-10 10:54:12,679 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\oauth\views.py changed, reloading.
+INFO 2021-03-10 10:54:14,164 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-03-10 10:54:18,555 basehttp 154 "GET /users/login/ HTTP/1.1" 200 2923
+WARNING 2021-03-10 10:54:18,854 log 228 Not Found: /users/images/login_banner.png
+WARNING 2021-03-10 10:54:18,857 log 228 Not Found: /users/images/QQ-weixin.png
+WARNING 2021-03-10 10:54:18,859 log 228 Not Found: /users/images/icons02.png
+WARNING 2021-03-10 10:54:18,860 basehttp 154 "GET /users/images/QQ-weixin.png HTTP/1.1" 404 3947
+WARNING 2021-03-10 10:54:18,861 basehttp 154 "GET /users/images/login_banner.png HTTP/1.1" 404 3956
+WARNING 2021-03-10 10:54:18,862 basehttp 154 "GET /users/images/icons02.png HTTP/1.1" 404 3941
+WARNING 2021-03-10 10:54:20,356 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2021-03-10 10:54:22,256 log 228 Not Found: /qq/login/
+WARNING 2021-03-10 10:54:22,257 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 404 2768
+INFO 2021-03-10 10:56:20,943 autoreload 217 C:\Users\LiZ\Desktop\lgshop\apps\oauth\urls.py changed, reloading.
+INFO 2021-03-10 10:56:22,346 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-03-10 10:56:25,409 basehttp 154 "GET /users/login/ HTTP/1.1" 200 2923
+WARNING 2021-03-10 10:56:25,553 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2021-03-10 10:56:25,732 log 228 Not Found: /users/images/login_banner.png
+WARNING 2021-03-10 10:56:25,733 basehttp 154 "GET /users/images/login_banner.png HTTP/1.1" 404 3957
+WARNING 2021-03-10 10:56:25,737 log 228 Not Found: /users/images/QQ-weixin.png
+WARNING 2021-03-10 10:56:25,738 basehttp 154 "GET /users/images/QQ-weixin.png HTTP/1.1" 404 3948
+WARNING 2021-03-10 10:56:25,741 log 228 Not Found: /users/images/icons02.png
+WARNING 2021-03-10 10:56:25,741 basehttp 154 "GET /users/images/icons02.png HTTP/1.1" 404 3942
+INFO 2021-03-10 10:56:29,421 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2021-03-10 10:58:10,718 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-03-10 10:58:12,145 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-03-10 10:59:02,613 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-03-10 10:59:03,985 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-03-10 10:59:36,561 basehttp 154 "GET /users/login/ HTTP/1.1" 200 2923
+INFO 2021-03-10 10:59:38,363 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2021-03-10 11:00:32,930 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
+INFO 2021-03-10 11:00:34,325 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-03-10 11:00:44,380 autoreload 217 C:\Users\LiZ\Desktop\lgshop\lgshop\dev.py changed, reloading.
