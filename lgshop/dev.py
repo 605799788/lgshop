@@ -24,7 +24,7 @@ SECRET_KEY = 'kteq*oofo%*c&u++c+*o4ds@a1y53odh94di6cu^v5-t+eby4_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.meiduo.site', '127.0.0.1']
+ALLOWED_HOSTS = ['www.meiduo.site', '127.0.0.1', '*']
 
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 # Application definition

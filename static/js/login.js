@@ -8,7 +8,7 @@ let vm = new Vue({
 
         error_username: false,
         error_password: false,
-        remembered: false,
+        remembered: '',
     },
     methods: {
         // 检查账号
