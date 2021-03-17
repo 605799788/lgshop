@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'contents',  # 首页
     'verifications',  # 验证
     'oauth',  # qq登陆
+    'areas',  # 省市区地址
 ]
 
 MIDDLEWARE = [

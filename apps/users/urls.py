@@ -1,7 +1,8 @@
 from django.urls import path, re_path
 
 from .views import RegisterView, UsernameCountView, LoginView, LogoutView
-from .views import UserInfotView, EmailView, VerifyEmailView
+from .views import UserInfotView, EmailView, VerifyEmailView, AddressView
+from .views import AddressCreateView
 app_name = 'users'
 
 urlpatterns = [
@@ -20,4 +21,10 @@ urlpatterns = [
     path('email/', EmailView.as_view()),
     # 激活邮箱请求
     path('emails/verification/', VerifyEmailView.as_view()),
+    # 收货地址
+    path('addresses/', AddressView.as_view(), name='address'),
+    # 新增收件人
+    path('addresses/create/', AddressCreateView.as_view()),
+
+
 ]

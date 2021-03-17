@@ -25,5 +25,8 @@ urlpatterns = [
     # 验证码
     path('', include('verifications.urls')),
     # QQ
-    path('', include('oauth.urls'))
+    path('', include('oauth.urls')),
+    # 三级联动
+    path('', include('areas.urls'))
+
 ]

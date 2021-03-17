@@ -26,17 +26,20 @@ class QQAuthUserView(View):
         :return:
         """
         code = request.GET.get("code")
-        # print('========================================================')
-        # print(code)
+        print('========================================================')
+        print(code)
         if not code:
             return http.HttpResponseForbidden("获取code失败")
         oauth = OAuthQQ(client_id=settings.QQ_CLIENT_ID, client_secret=settings.QQ_CLIENT_SECRET,
                         redirect_uri=settings.QQ_REDIRECT_URI)
         try:
+            print(oauth, code, settings.QQ_CLIENT_ID, settings.QQ_CLIENT_SECRET, settings.QQ_REDIRECT_URI)
             # 获取access_token
             access_token = oauth.get_access_token(code)
+            print(access_token)
             # 获取openid
             openid = oauth.get_open_id(access_token)
+            print(openid)
         except Exception as e:
             logger.error(e)
             return http.HttpResponseServerError('Oauth2.0认证失败')

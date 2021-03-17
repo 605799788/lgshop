@@ -11,7 +11,7 @@ from django.conf import settings
 
 # from users.models import User
 from .forms import RegisterForm, LoginForm
-from .models import User
+from .models import User, Address
 from utils.views import LoginRequiredJSONMixin
 from celery_tasks.email.tasks import send_verify_email
 
@@ -23,7 +23,84 @@ import json, re
 # Create your views here.
 
 
+class AddressCreateView(LoginRequiredJSONMixin, View):
+    """新增地址"""
+    def post(self, request):
+        """
+        新增地址逻辑
+        :param request:
+        :return:
+        """
+        # 接收参数  校验参数
+        json_str = request.body.decode()  # 字节
+        json_dict = json.loads(json_str)
+        receiver = json_dict.get('receiver')
+        province_id = json_dict.get('province_id')
+        city_id = json_dict.get('city_id')
+        district_id = json_dict.get('district_id')
+        place = json_dict.get('place')
+        mobile = json_dict.get('mobile')
+        tel = json_dict.get('tel')
+        email = json_dict.get('email')
+        # 校验参数
+        if not all([receiver, province_id, city_id, district_id, place, mobile]):
+            return HttpResponseForbidden('缺少必传参数')
+        if not re.match(r'^1[3-9]\d{9}$', mobile):
+            return HttpResponseForbidden('参数mobile有误')
+        if tel:
+            if not re.match(r'^(0[0-9]{2,3}-)?([2-9][0-9]{6,7})+(-[0-9]{1,4})?$', tel):
+                return HttpResponseForbidden('参数tel有误')
+        if email:
+            if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+                return HttpResponseForbidden('参数email有误')
+                # 保存用户传入的数据
+        address = Address.objects.create(
+            user=request.user,
+            title=receiver,
+            receiver=receiver,
+            province_id=province_id,
+            city_id=city_id,
+            district_id=district_id,
+            place=place,
+            mobile=mobile,
+            tel=tel,
+            email=email,
+        )
+        address_dict = {
+            'id': address.id,
+            'receiver': address.title,
+            'province': address.province.name,
+            'city': address.city.name,
+            'district': address.district.name,
+            'place': address.place,
+            'mobile': address.mobile,
+            'tel': address.tel,
+            'email': address.email
+        }
+
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': '新增地址成功', 'address': address_dict})
+
+
+class AddressView(LoginRequiredMixin, View):
+    """用户收货地址"""
+    def get(self, request):
+        """
+        收货地址页面
+        :param request:
+        :return:
+        """
+        return render(request, 'user_center_site.html')
+
+    def post(self, request):
+        """
+        更改页面
+        :param request:
+        :return:
+        """
+
+
 class VerifyEmailView(View):
+    """验证邮箱"""
 
     def get(self, request):
         # 1. 接收
@@ -162,7 +239,7 @@ class LoginView(View):
                 response = redirect(next)
                 # return redirect(next)
             else:
-                response = redirect(reverse('content:index'))
+                response = redirect(reverse('contents:index'))
             # 将用户名设置到cookie中
 
             # 响应结果 重定向到首页；
