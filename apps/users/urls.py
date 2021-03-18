@@ -1,8 +1,8 @@
 from django.urls import path, re_path
 
-from .views import RegisterView, UsernameCountView, LoginView, LogoutView
+from .views import RegisterView, UsernameCountView, LoginView, LogoutView, DefaultAddressView
 from .views import UserInfotView, EmailView, VerifyEmailView, AddressView
-from .views import AddressCreateView
+from .views import AddressCreateView, UpdateDestoryAddressView, ChangPWDView
 app_name = 'users'
 
 urlpatterns = [
@@ -25,6 +25,11 @@ urlpatterns = [
     path('addresses/', AddressView.as_view(), name='address'),
     # 新增收件人
     path('addresses/create/', AddressCreateView.as_view()),
-
+    # 更改地址
+    re_path(r'^addresses/(?P<address_id>\d+)/$', UpdateDestoryAddressView.as_view()),
+    # 新增收件人
+    path('pwd/', ChangPWDView.as_view(), name='pwd'),
+    # 设置默认收货地址
+    re_path(r'^addresses/(?P<address_id>\d+)/default/$', DefaultAddressView.as_view())
 
 ]

@@ -212,7 +212,7 @@ let vm = new Vue({
                         })
                 } else {
                     // 修改地址
-                    let url = '/addresses/' + this.addresses[this.editing_address_index].id + '/';
+                    let url = '/users/addresses/' + this.addresses[this.editing_address_index].id + '/';
                     axios.put(url, this.form_address, {
                         headers: {
                             'X-CSRFToken':getCookie('csrftoken')
@@ -237,7 +237,7 @@ let vm = new Vue({
         },
         // 删除地址
         delete_address(index){
-            let url = '/addresses/' + this.addresses[index].id + '/';
+            let url = '/users/addresses/' + this.addresses[index].id + '/';
             axios.delete(url, {
                 headers: {
                     'X-CSRFToken':getCookie('csrftoken')
@@ -260,7 +260,7 @@ let vm = new Vue({
         },
         // 设置默认地址
         set_default(index){
-            let url = '/addresses/' + this.addresses[index].id + '/default/';
+            let url = '/users/addresses/' + this.addresses[index].id + '/default/';
             axios.put(url, {}, {
                 headers: {
                     'X-CSRFToken':getCookie('csrftoken')
