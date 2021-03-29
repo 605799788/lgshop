@@ -27,6 +27,11 @@ urlpatterns = [
     # QQ
     path('', include('oauth.urls')),
     # 三级联动
-    path('', include('areas.urls'))
+    path('', include('areas.urls')),
+    # 商品
+    path('', include('goods.urls')),
+    # 全文检索
+    path(r'search/', include('haystack.urls')),
+
 
 ]

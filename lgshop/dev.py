@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'verifications',  # 验证
     'oauth',  # qq登陆
     'areas',  # 省市区地址
+    'goods',  # 商品
+    'haystack',  # 搜索引擎全文检索
 ]
 
 MIDDLEWARE = [
@@ -230,3 +232,20 @@ EMAIL_VERIFY_URL = 'http://127.0.0.1:8000/users/emails/verification/'
 QQ_CLIENT_ID = '101913612'
 QQ_CLIENT_SECRET = '39eb6ac28cb343b3e5562ef1032b7cab'
 QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
+
+# FasfDFS
+DEFAULT_FILE_STORAGE = 'utils.fastdfs.fdfs_storage.FasfDFSStorage'
+FDFD_BASE_URL = "http://192.168.43.31:8888/"
+
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://192.168.43.31:9200/', # Elasticsearch服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'lgshop',  # Elasticsearch建立的索引库的名称
+    },
+}
+# 当添加、修改、删除数据时，自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
