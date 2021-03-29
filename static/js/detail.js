@@ -121,7 +121,7 @@ let vm = new Vue({
 		// 保存用户浏览记录
 		save_browse_histories(){
         	if (this.sku_id) {
-        		let url = '/browse_histories/';
+        		let url = '/users/browse_histories/';
 				axios.post(url, {
                     'sku_id':this.sku_id
                 }, {

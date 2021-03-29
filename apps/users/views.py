@@ -18,10 +18,62 @@ from celery_tasks.email.tasks import send_verify_email
 from utils.response_code import RETCODE
 from .utils import generate_verify_email_url, check_verify_email_token
 from .constants import USER_ADDRESS_COUNT
+from goods.models import SKU
 
 import json, re, logging
 
 logger = logging.getLogger('django')
+
+
+class UserBrowseHistory(LoginRequiredJSONMixin, View):
+    """浏览记录"""
+    def post(self, request):
+        """保存用户浏览记录"""
+        json_str = request.body.decode()
+        json_dict = json.loads(json_str)
+        sku_id = json_dict.get('sku_id')
+
+        # 校验参数
+        try:
+            SKU.objects.get(id=sku_id)
+        except SKU.DoesNotExist:
+            return HttpResponseForbidden('sku_id不存在')
+
+        redis_conn = get_redis_connection('history')
+        user = request.user
+        pl = redis_conn.pipeline()
+        # 去重复
+        pl.lrem('history_%s' % user.id, 0, sku_id)
+        # 保存
+        pl.lpush('history_%s' % user.id, sku_id)
+        # 截取
+        pl.ltrim('history_%s' % user.id, 0, 4)
+        # 执行
+        pl.execute()
+
+        # 响应结果
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
+
+    def get(self, request):
+        """查询用户商品浏览器记录"""
+
+        redis_conn = get_redis_connection('history')
+        user = request.user
+        sku_ids = redis_conn.lrange('history_%s' % user.id, 0, -1)
+        # print(sku_ids)
+
+        skus = []
+        for sku_id in sku_ids:
+            sku = SKU.objects.get(id=sku_id)
+            skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'price': sku.price,
+                'default_image_url': sku.default_image_url.url,
+
+            })
+
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'skus': skus})
 
 
 class ChangPWDView(LoginRequiredMixin, View):
