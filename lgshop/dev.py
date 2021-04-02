@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'areas',  # 省市区地址
     'goods',  # 商品
     'haystack',  # 搜索引擎全文检索
+    'carts',
+    'orders',
 ]
 
 MIDDLEWARE = [
@@ -121,6 +123,13 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
             }
         },
+    "carts": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/4",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 }
 
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"

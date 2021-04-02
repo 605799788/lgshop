@@ -12,6 +12,7 @@ from .utils import generate_access_token, check_access_token
 from users.models import User
 from .models import OAuthQQUser
 import logging
+from carts.utils import merge_carts_cookies_redis
 
 # 日志记录输出器
 logger = logging.getLogger('django')
@@ -26,8 +27,8 @@ class QQAuthUserView(View):
         :return:
         """
         code = request.GET.get("code")
-        print('========================================================')
-        print(code)
+        # print('========================================================')
+        # print(code)
         if not code:
             return http.HttpResponseForbidden("获取code失败")
         oauth = OAuthQQ(client_id=settings.QQ_CLIENT_ID, client_secret=settings.QQ_CLIENT_SECRET,
@@ -51,14 +52,17 @@ class QQAuthUserView(View):
             # openid不可以明文显示，需要一个可逆的算法
             context = {"access_token_openid": generate_access_token(openid)}
             return render(request, 'oauth_callback.html', context)
-            pass
         else:
             # 找到记录说明已绑定  登陆
             # 状态保持
             login(request, oauth_user.user)
             next = request.GET.get('state')
             response = redirect(next)
+            # 登陆成功后合并购物车
+            from carts.utils import merge_carts_cookies_redis
+            merge_carts_cookies_redis(request, oauth_user.user, response)
             response.set_cookie('username', oauth_user.user.username, max_age=3600)
+
             return response
 
     def post(self, request):
@@ -101,10 +105,16 @@ class QQAuthUserView(View):
             logger.error(e)
             return render(request, 'oauth_callback.html', {'account_errmsg': '账号或者密码错误'})
 
+        # 登陆成功后合并购物车
+
+
         # 重定向保持状态
         login(request, oauth_qq_user.user)
         next = request.GET.get("state")
         response = redirect(next)
+        # 登陆成功后合并购物车
+        from carts.utils import merge_carts_cookies_redis
+        merge_carts_cookies_redis(request, user, response)
         response.set_cookie('username', oauth_qq_user.user.username, max_age=3600 * 24)
         return response
 

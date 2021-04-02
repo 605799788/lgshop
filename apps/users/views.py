@@ -492,6 +492,11 @@ class LoginView(View):
             # return redirect(reverse('content:index'))
             # response = redirect(reverse('content:index'))
             response.set_cookie('username', user.username, max_age=3600)
+
+            # 登陆成功后合并购物车
+            from carts.utils import merge_carts_cookies_redis
+            merge_carts_cookies_redis(request, user, response)
+
             return response
         else:
             # print(login_form.errors)

@@ -18,7 +18,7 @@
                 <div v-if="username" class="login_btn fl">
                     欢迎您：<em>[[ username ]]</em>
                     <span>|</span>
-                    <a href="{{ url('users:logout' %}">退出</a>
+                    <a href="{% url 'users:logout' %}">退出</a>
                 </div>
                 <div v-else class="login_btn fl">
                     <a href="{% url 'users:login' %}">登录</a>
@@ -149,7 +149,7 @@
 			{% endfor %}
 			<div class="total" v-cloak>总价：<em>[[ sku_amount ]]元</em></div>
 			<div class="operate_btn">
-				<a href="javascript:;" class="add_cart" id="add_cart">加入购物车</a>
+				<a @click="add_carts" class="add_cart" id="add_cart">加入购物车</a>
 			</div>
 		</div>
 	</div>
